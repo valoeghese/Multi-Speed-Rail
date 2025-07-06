@@ -29,7 +29,7 @@ public class MultispeedRail implements ModInitializer {
 
 	private static double mediumRailSpeed = 13.9; // 50km/h
 	private static double highRailSpeed = 27.8; // 100km/h
-	private static double deceleration = 6;
+	private static double deceleration = 10;
 
 	static {
 		CONFIG.setProperty("medium-rail-speed", String.valueOf(mediumRailSpeed));
