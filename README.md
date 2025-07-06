@@ -1,4 +1,4 @@
-dont use this, someone already had the same idea but did it better. I made this anyway for fun.
+Note: someone else already had the same idea but did it better. I made this anyway for fun. You can find their mod [here](https://modrinth.com/mod/highspeed-rail)
 
 # Multi-Speed Rail
 
