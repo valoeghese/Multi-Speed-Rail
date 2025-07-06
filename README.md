@@ -22,4 +22,4 @@ The minecart speed (m/s) when on medium speed rail blocks
 The minecraft speed (m/s) when on high speed rail blocks
 
 ### deceleration
-The maximum amount to lower minecart top speed each second when moving to a lower speed region. The actual value updates each tick.
+The maximum amount (m/s) to lower minecart top speed each second when moving to a lower speed region. The actual value updates each tick.

@@ -37,7 +37,10 @@ public abstract class NewMinecartBehaviourMixin extends MinecartBehavior {
         }
 
         if (speed < railmod$currentMaxSpeed) {
-            railmod$currentMaxSpeed = Math.max(speed, railmod$currentMaxSpeed - MultispeedRail.getDeceleration()/20.0);
+            // convert m/s to blocks/tick = /20.0
+            // convert blocks/tick/s to blocks/tick/tick = /20.0
+            // Therefore /400.0
+            railmod$currentMaxSpeed = Math.max(speed, railmod$currentMaxSpeed - MultispeedRail.getDeceleration()/400.0);
         } else {
             railmod$currentMaxSpeed = speed;
         }
