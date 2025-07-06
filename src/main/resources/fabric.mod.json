@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "multi-speed-rail",
+	"version": "${version}",
+	"name": "Multi-speed Rail",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Valoeghese"
+	],
+	"contact": {
+		"sources": "https://github.com/valoeghese/multi-speed-rail"
+	},
+	"license": "MIT",
+	"icon": "assets/multi-speed-rail/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"nz.valoeghese.railmod.MultispeedRail"
+		]
+	},
+	"mixins": [
+		"multi-speed-rail.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-resource-loader-v0": "*"
+	}
+}
