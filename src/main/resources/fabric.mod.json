@@ -12,7 +12,7 @@
 	},
 	"license": "MIT",
 	"icon": "assets/multispeedrail/icon.png",
-	"environment": "server",
+	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"nz.valoeghese.railmod.MultispeedRail"
