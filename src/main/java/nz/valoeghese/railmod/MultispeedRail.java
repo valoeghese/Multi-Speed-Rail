@@ -3,6 +3,10 @@ package nz.valoeghese.railmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.block.Block;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,7 +19,10 @@ import java.nio.file.Path;
 import java.util.Properties;
 
 public class MultispeedRail implements ModInitializer {
-	public static final String MOD_ID = "multi-speed-rail";
+	public static final String MOD_ID = "multispeedrail";
+
+	public static final TagKey<Block> MEDIUM_SPEED_RAIL_BLOCKS = TagKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(MOD_ID, "medium_speed_rail"));
+	public static final TagKey<Block> HIGH_SPEED_RAIL_BLOCKS = TagKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(MOD_ID, "high_speed_rail"));
 
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	private static final Properties CONFIG = new Properties();

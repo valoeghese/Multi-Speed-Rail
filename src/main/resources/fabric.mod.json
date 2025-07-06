@@ -11,7 +11,7 @@
 		"sources": "https://github.com/valoeghese/multi-speed-rail"
 	},
 	"license": "MIT",
-	"icon": "assets/multi-speed-rail/icon.png",
+	"icon": "assets/multispeedrail/icon.png",
 	"environment": "server",
 	"entrypoints": {
 		"main": [
