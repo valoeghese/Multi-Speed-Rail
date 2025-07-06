@@ -1,10 +1,10 @@
-Note: someone else already had the same idea but did it (mostly) better. I made this anyway for fun. You can find their mod [here](https://modrinth.com/mod/highspeed-rail)
-The extra control for deceleration of top speed is unique to this iteration, as far as I can tell.
-
 # Multi-Speed Rail
 
 Server-side mod for different speeds for rail by putting different blocks underneath the track.
 This allows fast rail transport to be developed, but keeping a lower speed for contraptions.
+
+There is already a mod with the same idea which you can find [here](https://modrinth.com/mod/highspeed-rail). They mostly have more features,
+except the extra control for deceleration of top speed is unique to this iteration, as far as I can tell.
 
 Speed changes by block Tags:
 - `multispeedrail:high_speed_rail` (default: concrete)
